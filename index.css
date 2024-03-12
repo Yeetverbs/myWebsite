@@ -49,6 +49,7 @@ li {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    margin: 10px;
 }
 
 .project h3 {
@@ -64,16 +65,42 @@ li {
 }
 
 .column-container {
-    columns: 2;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    
 }
 
 .column-item{
     margin-top: 0;
+    text-align: center;
+    margin: 0 200px;
 }
 
 .column-container-projects {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start; 
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .project-title h2{
+    font-size: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .skills-header h2{
+    font-size: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .skills-subheader{
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
   }
   
